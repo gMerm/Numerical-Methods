@@ -20,6 +20,8 @@ This repository contains MATLAB implementations for the Scientific Computing Lab
 ### File Structure
 
 ```bash
+├── Documentation/
+    ├── Documentation.pdf  # Doc in Greek
 ├── chol_timing.m          # Problem 1: Cholesky timing and polynomial fitting  
 ├── tridiagonal_solver.m   # Problem 2: Tridiagonal system solver  
 ├── tensor_operations.m    # Problem 3: Tensor operations (TTV/TTM/TTT)  
