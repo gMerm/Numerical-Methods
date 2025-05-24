@@ -1,7 +1,6 @@
 # Numerical-Methods
 This repository contains MATLAB implementations for the Scientific Computing Lab (2023-24) course. It includes solutions to four key problems:
-*Supervised by: Prof. Efstratios Gallopoulos (HPC Lab, University of Patras)*  
-
+ 
 1. **Matrix Cholesky Decomposition Timing Analysis** `(chol_timing.m)`:
    - Measures execution time of `chol(A)` for random SPD matrices.
    - Fits cubic, quadratic, and quartic polynomials to model complexity.
@@ -42,3 +41,5 @@ This repository contains MATLAB implementations for the Scientific Computing Lab
 ├── pcg_solver.m           # Problem 4: PCG with error tracking  
 ├── README.md              # Repository overview  
 ```
+
+*Supervised by: Prof. Efstratios Gallopoulos (HPC Lab, University of Patras)* 
