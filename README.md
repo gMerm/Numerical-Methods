@@ -16,6 +16,14 @@ This repository contains MATLAB implementations for the Scientific Computing Lab
 4. **Preconditioned Conjugate Gradient (PCG) Method** `(pcg_solver.m)`:
    - Modified PCG solver with error tracking for Poisson and sparse matrix systems.
    - Includes ILU/IC preconditioning and convergence plots.
+  
+     Some key results are the following:
+
+      | Preconditioning    | Iterations | Residual Norm | Error Norm (A-norm) |
+      | ------------------ | ---------- | ------------- | ------------------- |
+      | None               | 4          | Slow decay    | High stagnation     |
+      | ILU                | 4          | Fast decay    | 10× lower error     |
+
 
 ### File Structure
 
