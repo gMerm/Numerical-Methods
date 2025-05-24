@@ -25,7 +25,6 @@ This repository contains MATLAB implementations for the Scientific Computing Lab
       | ILU                | 4          | Fast decay    | 10× lower error     |
 
      - Plot without preconditioning `pois_no_pre_4.png`
-       <img src="Documentation/pois_no_pre_4.png" width="400" height=600 title="PCG convergence for 1138_bus matrix without preconditioning. Residual and error norms show limited improvement in 4 iterations."/>
        ![No preconditioning](Documentation/pois_no_pre_4.png)
      - Plot with ILU preconditioning `pois_with_pre_4.png`
        ![With preconditioning](Documentation/pois_with_pre_4.png)
