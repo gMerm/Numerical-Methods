@@ -24,10 +24,7 @@ This repository contains MATLAB implementations for the Scientific Computing Lab
       | None               | 4          | Slow decay    | High stagnation     |
       | ILU                | 4          | Fast decay    | 10× lower error     |
 
-     - Plot without preconditioning `pois_no_pre_4.png`
-       ![No preconditioning](Documentation/pois_no_pre_4.png)
-     - Plot with ILU preconditioning `pois_with_pre_4.png`
-       ![With preconditioning](Documentation/pois_with_pre_4.png)
+     <div style="display: flex; justify-content: space-between;"> <div style="width: 48%;"> <img src="Documentation/pois_no_pre_4.png" width="100%" alt="No preconditioning"> <p style="text-align: center; font-size: 0.9em;"><em>Without preconditioning (max iterations=4)</em></p> </div> <div style="width: 48%;"> <img src="Documentation/pois_with_pre_4.png" width="100%" alt="With preconditioning"> <p style="text-align: center; font-size: 0.9em;"><em>With ILU preconditioning (max iterations=4)</em></p> </div> </div>
 
 
 ### File Structure
